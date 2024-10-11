@@ -1,0 +1,59 @@
+{
+	"roles": [
+		{
+			"reassign": true,
+			"emailMessage": {
+				"content": "Transaction: 1 Signer with SMS!"
+			},
+			"id": "SignerOne",
+			"signers": [
+				{
+					"email": "john.cyclist.mcguinness+sSMS@gmail.com",
+					"firstName": "John",
+					"language": "es",
+					"lastName": "McGuinness",
+					"auth": {
+						"scheme": "SMS",
+						"challenges": [
+							{
+								"answer": null,
+								"question": "+447485213049",
+								"maskInput": false
+							}
+						],
+						"idvWorkflow": null
+					},
+					"id": "SignerOne"
+				}
+			],
+			"type": "SIGNER"
+		}
+	],
+	"documents": [
+		{
+			"id": "documentOne",
+			"approvals": [
+				{
+					"id": "SignatureOne",
+					"role": "SignerOne",
+					"fields": [
+						{
+							"width": 200,
+							"height": 60,
+							"page": 0,
+							"subtype": "FULLNAME",
+							"top": 316,
+							"left": 300,
+							"type": "SIGNATURE"
+						}
+					]
+				}
+			],
+			"name": "SignatureDoc"
+		}
+	],
+	"name": "Name: 1 Signer with SMS",
+	"autocomplete": false,
+	"senderVisible": false,
+	"status": "SENT"
+}
