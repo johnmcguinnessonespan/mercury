@@ -1,0 +1,55 @@
+{
+  "roles": [
+    {
+      "reassign": true,
+      "emailMessage": {
+        "content": "Transaction: : 1 Signer request attachment!"
+      },
+      "id": "Signer1",
+      "signers": [
+        {
+          "email": "john.cyclist.mcguinness+attach@gmail.com",
+          "firstName": "1.firstname",
+          "lastName": "1.lastname",
+          "company": "OneSpan Sign"
+        }
+      ],
+      "attachmentRequirements": [
+        {
+          "description": "Please upload a scanned copy of your driver's license.",
+          "required": true,
+          "name": "Driver's license"
+        }
+      ]
+    }
+  ],
+  "documents": [
+    {
+      "id": "documentOne",
+      "approvals": [
+        {
+          "role": "Signer1",
+          "fields": [
+            {
+              "page": 0,
+              "top": 100,
+              "subtype": "FULLNAME",
+              "height": 50,
+              "left": 100,
+              "width": 200,
+              "type": "SIGNATURE"
+            }
+          ]
+        }
+      ],
+      "name": "Test Document"
+    }
+  ],
+  "name": "Example Package",
+  "type": "PACKAGE",
+  "language": "en_GB",
+  "emailMessage": "",
+  "description": "Name: 1 Signer request attachment",
+  "autocomplete": true,
+  "status": "SENT"
+}

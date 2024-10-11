@@ -1,0 +1,90 @@
+{
+    "documents": [
+        {
+            "approvals": [
+                {
+                    "id": "ClientSignature",
+                    "role": "Signer1",
+                    "fields": [
+                        {
+                            "subtype": "FULLNAME",
+                            "extract": false,
+                            "extractAnchor": {
+                                "text": "Client Signature",
+                                "index": 0,
+                                "width": 150,
+                                "height": 50,
+                                "anchorPoint": "TOPRIGHT",
+                                "characterIndex": 0,
+                                "leftOffset": 0,
+                                "topOffset": 0
+                            },
+                            "type": "SIGNATURE",
+                            "name": "ExampleSignatureId"
+                        }
+                    ],
+                    "name": ""
+                },
+                {
+                    "id": "RequesterSignature",
+                    "role": "Signer2",
+                    "fields": [
+                        {
+                            "subtype": "FULLNAME",
+                            "extract": false,
+                            "extractAnchor": {
+                                "text": "Requester Signature",
+                                "index": 0,
+                                "width": 150,
+                                "height": 50,
+                                "anchorPoint": "TOPRIGHT",
+                                "characterIndex": 0,
+                                "leftOffset": 0,
+                                "topOffset": 0
+                            },
+                            "type": "SIGNATURE",
+                            "name": "ExampleSignatureId"
+                        }
+                    ],
+                    "name": ""
+                }
+            ],
+            "id": "sample-contract",
+            "name": "Test Document"
+        }
+    ],
+    "status": "DRAFT",
+    "type": "PACKAGE",
+    "sender": {
+        "email": "< .................... >"
+    },
+    "roles": [
+        {
+            "id": "Signer1",
+            "type": "SIGNER",
+            "signers": [
+                {
+                    "email": "john.cyclist.mcguinness+signer1@gmail.com",
+                    "firstName": "John",
+                    "lastName": "Smith",
+                    "id": "Signer1"
+                }
+            ],
+            "name": "Signer1"
+        },
+        {
+            "id": "Signer2",
+            "type": "SIGNER",
+            "signers": [
+                {
+                    "email": "john.cyclist.mcguinness+signer2@gmail.com",
+                    "firstName": "Mary",
+                    "lastName": "Doe",
+                    "id": "Signer2"
+                }
+            ],
+            "name": "Signer2"
+        }
+    ],
+    "name": "Name: 2 signers from dedicated sender"
+}

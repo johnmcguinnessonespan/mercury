@@ -1,0 +1,238 @@
+{
+  "roles": [
+    {
+      "data": {
+        "localLanguage": "local"
+      },
+      "reassign": true,
+      "emailMessage": {
+        "content": "Transaction: 1 Signer / 2 docs!"
+      },
+      "id": "SignerOne",
+      "signers": [
+        {
+          "email": "john.cyclist.mcguinness+sOne@gmail.com",
+          "firstName": "John",
+          "lastName": "McGuinness",
+          "id": "SignerOne"
+        }
+      ],
+      "type": "SIGNER"
+    }
+  ],
+  "documents": [
+    {
+      "id": "documentOne",
+      "approvals": [
+        {
+          "id": "SignatureOne",
+          "role": "SignerOne",
+          "fields": [
+            {
+              "width": 165,
+              "height": 40,
+              "page": 0,
+              "subtype": "FULLNAME",
+              "top": 216,
+              "left": 315,
+              "type": "SIGNATURE"
+            }
+          ]
+        }
+      ],
+      "name": "SignatureDoc"
+    },
+    {
+      "id": "documentTwo",
+      "approvals": [
+        {
+          "id": "SignatureTwo",
+          "role": "SignerOne",
+          "fields": [
+            {
+              "width": 165,
+              "height": 40,
+              "page": 0,
+              "subtype": "FULLNAME",
+              "top": 216,
+              "left": 315,
+              "type": "SIGNATURE"
+            }
+          ]
+        }
+      ],
+      "name": "SignatureTwo"
+    },
+    {
+      "id": "documentThree",
+      "approvals": [
+        {
+          "id": "SignatureThree",
+          "role": "SignerOne",
+          "fields": [
+            {
+              "width": 165,
+              "height": 40,
+              "page": 0,
+              "subtype": "FULLNAME",
+              "top": 216,
+              "left": 315,
+              "type": "SIGNATURE"
+            }
+          ]
+        }
+      ],
+      "name": "SignatureThree"
+    },
+    {
+      "id": "documentFour",
+      "approvals": [
+        {
+          "id": "SignatureFour",
+          "role": "SignerOne",
+          "fields": [
+            {
+              "width": 165,
+              "height": 40,
+              "page": 0,
+              "subtype": "FULLNAME",
+              "top": 216,
+              "left": 315,
+              "type": "SIGNATURE"
+            }
+          ]
+        }
+      ],
+      "name": "SignatureFour"
+    },
+    {
+      "id": "documentFive",
+      "approvals": [
+        {
+          "id": "SignatureFive",
+          "role": "SignerOne",
+          "fields": [
+            {
+              "width": 165,
+              "height": 40,
+              "page": 0,
+              "subtype": "FULLNAME",
+              "top": 216,
+              "left": 315,
+              "type": "SIGNATURE"
+            }
+          ]
+        }
+      ],
+      "name": "SignatureFive"
+    },
+    {
+      "id": "documentSix",
+      "approvals": [
+        {
+          "id": "SignatureSix",
+          "role": "SignerOne",
+          "fields": [
+            {
+              "width": 165,
+              "height": 40,
+              "page": 0,
+              "subtype": "FULLNAME",
+              "top": 216,
+              "left": 315,
+              "type": "SIGNATURE"
+            }
+          ]
+        }
+      ],
+      "name": "SignatureSix"
+    },
+    {
+      "id": "documentSeven",
+      "approvals": [
+        {
+          "id": "SignatureSeven",
+          "role": "SignerOne",
+          "fields": [
+            {
+              "width": 165,
+              "height": 40,
+              "page": 0,
+              "subtype": "FULLNAME",
+              "top": 216,
+              "left": 315,
+              "type": "SIGNATURE"
+            }
+          ]
+        }
+      ],
+      "name": "SignatureSeven"
+    },
+    {
+      "id": "documentEight",
+      "approvals": [
+        {
+          "id": "SignatureEight",
+          "role": "SignerOne",
+          "fields": [
+            {
+              "width": 165,
+              "height": 40,
+              "page": 0,
+              "subtype": "FULLNAME",
+              "top": 216,
+              "left": 315,
+              "type": "SIGNATURE"
+            }
+          ]
+        }
+      ],
+      "name": "SignatureEight"
+    },
+    {
+      "id": "documentNine",
+      "approvals": [
+        {
+          "id": "SignatureNine",
+          "role": "SignerOne",
+          "fields": [
+            {
+              "width": 165,
+              "height": 40,
+              "page": 0,
+              "subtype": "FULLNAME",
+              "top": 216,
+              "left": 315,
+              "type": "SIGNATURE"
+            }
+          ]
+        }
+      ],
+      "name": "SignatureNine"
+    },
+    {
+      "id": "documenTen",
+      "approvals": [
+        {
+          "id": "SignatureTen",
+          "role": "SignerOne",
+          "fields": [
+            {
+              "width": 165,
+              "height": 40,
+              "page": 0,
+              "subtype": "FULLNAME",
+              "top": 216,
+              "left": 315,
+              "type": "SIGNATURE"
+            }
+          ]
+        }
+      ],
+      "name": "SignatureTen"
+    }
+  ],
+  "name": "Name: 1 Signer / 2 docs",
+  "senderVisible": false,
+  "status": "SENT"
+}
